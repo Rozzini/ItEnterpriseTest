@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="TestTask.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="TestTask.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="TestTask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -150,14 +150,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestTask.exe" size="50656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestTask.exe" size="51168">
       <assemblyIdentity name="TestTask" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xvz2gPpNDkksXtEOhRGuR+cH5895NjNXDsV4U165pWQ=</dsig:DigestValue>
+        <dsig:DigestValue>R23SSB4iZejiNmBcNyELJpfLMIeLJV3XVO7vQQjU2E8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -185,7 +185,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>lhJCR9DLyq2Vj7+Aeaq8Ht9e9RgGoA+fg7bYrvb0DHg=</dsig:DigestValue>
+      <dsig:DigestValue>XgngtgDdIGL49Arc7InlaZT6YCdrzPipqf/nT7y66Bg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SalesDataBase_log.ldf" size="8388608" writeableType="applicationData">
@@ -194,7 +194,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>eiLP21YE7bm65MpcP+xsBLahhJtcS+dcYqRWsaIUnis=</dsig:DigestValue>
+      <dsig:DigestValue>12dC9YCNfqjH7j3W7lW7sS5vrskxm3idLhPKHvFo0YU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TestTask.exe.config" size="1507">
